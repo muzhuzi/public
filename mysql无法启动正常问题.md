@@ -7,7 +7,7 @@ Can’t start server: can’t create PID filepath: No such file or directory
 ### 错误原因
 一般是由于服务器强制关机导致pid文件丢失。
 
-## 临时解决办法
+### 临时解决办法
 1. 在/etc/my.cnf 中查看pid-file的位置：
 eg: pid-file=/var/run/mysql/mysqld.pid
 
