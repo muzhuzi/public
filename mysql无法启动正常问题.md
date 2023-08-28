@@ -1,4 +1,4 @@
-![image](https://github.com/muzhuzi/public/assets/5387766/a21e9067-82aa-43e4-a809-6d61f84705cb)![image](https://github.com/muzhuzi/public/assets/5387766/82b49c93-6f00-417c-99f6-77db960f0852)## 通过mysql rpm包安装的mysql服务器端
+## 通过mysql rpm包安装的mysql服务器端
 ## Linux意外重启后，mysql无法启动，报如下错误信息：
 ```
 Can’t start server: can’t create PID filepath: No such file or directory
