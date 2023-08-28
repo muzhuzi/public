@@ -34,7 +34,7 @@ systemctl status systemd-tmpfiles-setup.service
 ```
 ![image](https://github.com/muzhuzi/public/assets/5387766/e056eefe-a59d-4ff1-8791-7a61fc4935a6)
 
-2. 增加MySQL组在/etc/group中，以保证mysql正常启动
+2. 增加MySQL组在/etc/group中，以保证mysql重启时，有对应的权限创建pid文件。
 ```
 mysql:x:1012:
 ```
